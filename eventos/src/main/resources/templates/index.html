@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos Mayra Ponce</title>
+    <link rel="stylesheet" th:href="@{/css/estilos.css}">
+</head>
+<body>
+
+    <header class="barra">
+        <a href="#inicio" class="logo">Eventos Mayra Ponce</a>
+        <nav>
+            <a href="#salon">El salón</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="portada">
+            <div class="portada-texto">
+                <h1>Hacemos de tu evento un momento inolvidable</h1>
+                <p>Reserva el salón, solicita tu cotización y organiza todo en un solo lugar.</p>
+                <a href="#contacto" class="boton">Solicitar cotización</a>
+            </div>
+        </section>
+
+        <section id="salon" class="seccion">
+            <h2>El salón</h2>
+            <p>Aquí irá la descripción, la capacidad y la ubicación del salón.</p>
+        </section>
+
+
+        <section id="servicios" class="seccion seccion-clara">
+            <h2>Servicios</h2>
+            <div class="tarjetas">
+                <article class="tarjeta">
+                    <h3>Reserva del salón</h3>
+                    <p>Consulta la disponibilidad y separa tu fecha.</p>
+                </article>
+                <article class="tarjeta">
+                    <h3>Cotizaciones</h3>
+                    <p>Solicita el valor de tu evento de forma rápida.</p>
+                </article>
+                <article class="tarjeta">
+                    <h3>Logística y montaje</h3>
+                    <p>Menaje, sillería y servicios complementarios.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contacto" class="seccion">
+            <h2>Contacto</h2>
+            <p>Aquí irá el formulario de contacto.</p>
+        </section>
+    </main>
+
+    <footer class="pie">
+        <p>&copy; 2026 Eventos Mayra Ponce</p>
+    </footer>
+
+</body>
+</html>
